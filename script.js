@@ -1,12 +1,12 @@
-var a=prompt("Enter your Name");
+var a=prompt("Enter your Name (format : all small letters)");
 var b=prompt("Enter your date of birth (format : DDMMYYYY)");
-  	if(a== "chia pik ying" && b=="20071999")
+  	if(a== "wong jian hao" && b=="08032002")
   	{
   	    window.location.href="2.html";
   	}
   	else
   	{
-  		alert("your name should be chia pik ying\nyour date of birth should be 20071999");
+  		alert("your name should be wong jian hao\nyour date of birth should be 08032002");
   		window.location.href="open_this_file.html";
   	}
   	
